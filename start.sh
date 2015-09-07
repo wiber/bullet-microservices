@@ -6,4 +6,5 @@ meteor --port 7001 > ../logging.log &
 cd ..
 cd search
 meteor --port 8001 > ../search.log &
-tail -f /Users/tapmate/github/bullet-micro/main.log
+cd ..
+tail -f ./main.log

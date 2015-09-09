@@ -5,4 +5,6 @@
 => Started MongoDB.
 => Started your app.
 
-=> App running at: http://localhost:7001/
+=> App running at: http://localhost:8001/
+[34mI20150909-21:38:58.536(4)? [39m[main-app] searching for: an
+[34mI20150909-21:38:58.609(4)? [39m[main-app] searching for: and

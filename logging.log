@@ -6,5 +6,10 @@
 => Started your app.
 
 => App running at: http://localhost:8001/
-[34mI20150909-21:38:58.536(4)? [39m[main-app] searching for: an
-[34mI20150909-21:38:58.609(4)? [39m[main-app] searching for: and
+=> Server modified -- restarting...
+Changes to your project's package version selections:
+
+meteorhacks:cluster  added, version 1.6.9
+
+                                   => Meteor server restarted
+[34mI20150909-21:48:06.805(4)? [39m[main-app] searching for: as

@@ -6,3 +6,9 @@
 => Started your app.
 
 => App running at: http://localhost:6001/
+=> Server modified -- restarting...
+Changes to your project's package version selections:
+
+meteorhacks:cluster  added, version 1.6.9
+
+                                   => Meteor server restarted

@@ -1,5 +1,4 @@
-
-# this function is called when Ctrl-C is sent
+# bash start.sh #on ubuntu
 function trap_ctrlc ()
 {
    # perform cleanup here
@@ -16,11 +15,13 @@ function trap_ctrlc ()
 # when signal 2 (SIGINT) is received
 trap "trap_ctrlc" 2
 
-
+# if we have port use it
+#var PORT = ${PORT:?"6001"}
+${PORT:="6001"}
 
 cd main
 meteor add meteorhacks:cluster &
-meteor --port 6001 > ../main.log &
+meteor --port $PORT > ../main.log &
 cd ..
 cd search
 meteor add meteorhacks:cluster &

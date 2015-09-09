@@ -3,12 +3,6 @@
 => Started proxy.
 => Meteor 1.1.0.3 is available. Update this project with 'meteor update'.
 => Started MongoDB.
-=> Server modified -- restarting...
-Changes to your project's package version selections:
-
-meteorhacks:cluster  added, version 1.6.9
-
-                                   => Meteor server restarted
 => Started your app.
 
 => App running at: http://localhost:7001/

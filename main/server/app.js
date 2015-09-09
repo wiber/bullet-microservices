@@ -1,12 +1,11 @@
-
+Cluster.connect("mongodb://localhost:27017/discovery");
+Cluster.register("main");
+var logConn = Cluster.discoverConnection('logging');
+var searchConn = Cluster.discoverConnection('search');
 Meteor.publish('topPackages', function() {
   var options = {sort: {isoScore: -1}, limit: 20};
   return Packages.find({}, options);
 });
-// connecting to the logging service
-var logConn = DDP.connect("http://localhost:8001");
-// connecting to the search service
-var searchConn = DDP.connect("http://localhost:7001");
 
 SearchSource.defineSource('packages', function(searchText, options) {
   // we don't need to wait for completing the log method call

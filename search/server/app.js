@@ -1,3 +1,6 @@
+Cluster.connect("mongodb://localhost:27017/discovery");
+Cluster.register("search");
+
 Packages = new Mongo.Collection('packages');
 
 Meteor.methods({

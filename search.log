@@ -3,12 +3,88 @@
 => Started proxy.
 => Meteor 1.1.0.3 is available. Update this project with 'meteor update'.
 => Started MongoDB.
-=> Server modified -- restarting...
-Changes to your project's package version selections:
-
-meteorhacks:cluster  added, version 1.6.9
-
-                                   => Meteor server restarted
 => Started your app.
 
 => App running at: http://localhost:7001/
+=> Server modified -- restarting...                                   [34mI20150909-22:15:28.350(4)? [39mCluster: connecting to 'mongodb' discovery backend
+[34mI20150909-22:15:28.352(4)? [39mCluster: with options:  undefined
+[34mW20150909-22:15:28.352(4)? (STDERR) [39m[35m[39m
+[34mW20150909-22:15:28.352(4)? (STDERR) [39m[35m/Users/tapmate/.meteor/packages/meteor-tool/.1.1.3.1wysac9++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/server-lib/node_modules/fibers/future.js:278[39m
+[34mW20150909-22:15:28.352(4)? (STDERR) [39m[35m						throw(ex);[39m
+[34mW20150909-22:15:28.352(4)? (STDERR) [39m[35m						      ^[39m
+[34mW20150909-22:15:28.352(4)? (STDERR) [39m[35mError: failed to connect to [localhost:27017][39m
+[34mW20150909-22:15:28.352(4)? (STDERR) [39m[35m    at Object.Future.wait (/Users/tapmate/.meteor/packages/meteor-tool/.1.1.3.1wysac9++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/server-lib/node_modules/fibers/future.js:398:15)[39m
+[34mW20150909-22:15:28.352(4)? (STDERR) [39m[35m    at packages/meteor/helpers.js:119:1[39m
+[34mW20150909-22:15:28.353(4)? (STDERR) [39m[35m    at Object.connect (packages/meteorhacks:cluster/lib/server/discovery_backends/mongo/discovery.js:18:1)[39m
+[34mW20150909-22:15:28.353(4)? (STDERR) [39m[35m    at Object.Cluster.connect (packages/meteorhacks:cluster/lib/server/api.js:17:1)[39m
+[34mW20150909-22:15:28.353(4)? (STDERR) [39m[35m    at app/server/app.js:1:44[39m
+[34mW20150909-22:15:28.353(4)? (STDERR) [39m[35m    at app/server/app.js:31:3[39m
+[34mW20150909-22:15:28.353(4)? (STDERR) [39m[35m    at /Users/tapmate/github/bullet-micro/search/.meteor/local/build/programs/server/boot.js:222:10[39m
+[34mW20150909-22:15:28.353(4)? (STDERR) [39m[35m    at Array.forEach (native)[39m
+[34mW20150909-22:15:28.353(4)? (STDERR) [39m[35m    at Function._.each._.forEach (/Users/tapmate/.meteor/packages/meteor-tool/.1.1.3.1wysac9++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/server-lib/node_modules/underscore/underscore.js:79:11)[39m
+[34mW20150909-22:15:28.354(4)? (STDERR) [39m[35m    at /Users/tapmate/github/bullet-micro/search/.meteor/local/build/programs/server/boot.js:117:5[39m
+[34mW20150909-22:15:28.354(4)? (STDERR) [39m[35m    - - - - -[39m
+[34mW20150909-22:15:28.354(4)? (STDERR) [39m[35m    at [object Object].<anonymous> (/Users/tapmate/.meteor/packages/meteorhacks_cluster/.1.6.9.bv1qcd++os+web.browser+web.cordova/npm/node_modules/mongodb/lib/mongodb/connection/server.js:555:74)[39m
+[34mW20150909-22:15:28.354(4)? (STDERR) [39m[35m    at [object Object].emit (events.js:106:17)[39m
+[34mW20150909-22:15:28.354(4)? (STDERR) [39m[35m    at [object Object].<anonymous> (/Users/tapmate/.meteor/packages/meteorhacks_cluster/.1.6.9.bv1qcd++os+web.browser+web.cordova/npm/node_modules/mongodb/lib/mongodb/connection/connection_pool.js:156:15)[39m
+[34mW20150909-22:15:28.354(4)? (STDERR) [39m[35m    at [object Object].emit (events.js:98:17)[39m
+[34mW20150909-22:15:28.354(4)? (STDERR) [39m[35m    at Socket.<anonymous> (/Users/tapmate/.meteor/packages/meteorhacks_cluster/.1.6.9.bv1qcd++os+web.browser+web.cordova/npm/node_modules/mongodb/lib/mongodb/connection/connection.js:534:10)[39m
+[34mW20150909-22:15:28.354(4)? (STDERR) [39m[35m    at Socket.emit (events.js:95:17)[39m
+[34mW20150909-22:15:28.354(4)? (STDERR) [39m[35m    at net.js:441:14[39m
+[34mW20150909-22:15:28.354(4)? (STDERR) [39m[35m    at process._tickCallback (node.js:442:13)[39m
+=> Exited with code: 8
+[34mI20150909-22:15:31.172(4)? [39mCluster: connecting to 'mongodb' discovery backend
+[34mI20150909-22:15:31.173(4)? [39mCluster: with options:  undefined
+[34mW20150909-22:15:31.183(4)? (STDERR) [39m[35m[39m
+[34mW20150909-22:15:31.183(4)? (STDERR) [39m[35m/Users/tapmate/.meteor/packages/meteor-tool/.1.1.3.1wysac9++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/server-lib/node_modules/fibers/future.js:278[39m
+[34mW20150909-22:15:31.184(4)? (STDERR) [39m[35m						throw(ex);[39m
+[34mW20150909-22:15:31.184(4)? (STDERR) [39m[35m						      ^[39m
+[34mW20150909-22:15:31.205(4)? (STDERR) [39m[35mError: failed to connect to [localhost:27017][39m
+[34mW20150909-22:15:31.205(4)? (STDERR) [39m[35m    at Object.Future.wait (/Users/tapmate/.meteor/packages/meteor-tool/.1.1.3.1wysac9++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/server-lib/node_modules/fibers/future.js:398:15)[39m
+[34mW20150909-22:15:31.205(4)? (STDERR) [39m[35m    at packages/meteor/helpers.js:119:1[39m
+[34mW20150909-22:15:31.206(4)? (STDERR) [39m[35m    at Object.connect (packages/meteorhacks:cluster/lib/server/discovery_backends/mongo/discovery.js:18:1)[39m
+[34mW20150909-22:15:31.206(4)? (STDERR) [39m[35m    at Object.Cluster.connect (packages/meteorhacks:cluster/lib/server/api.js:17:1)[39m
+[34mW20150909-22:15:31.206(4)? (STDERR) [39m[35m    at app/server/app.js:1:44[39m
+[34mW20150909-22:15:31.206(4)? (STDERR) [39m[35m    at app/server/app.js:31:3[39m
+[34mW20150909-22:15:31.206(4)? (STDERR) [39m[35m    at /Users/tapmate/github/bullet-micro/search/.meteor/local/build/programs/server/boot.js:222:10[39m
+[34mW20150909-22:15:31.206(4)? (STDERR) [39m[35m    at Array.forEach (native)[39m
+[34mW20150909-22:15:31.206(4)? (STDERR) [39m[35m    at Function._.each._.forEach (/Users/tapmate/.meteor/packages/meteor-tool/.1.1.3.1wysac9++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/server-lib/node_modules/underscore/underscore.js:79:11)[39m
+[34mW20150909-22:15:31.206(4)? (STDERR) [39m[35m    at /Users/tapmate/github/bullet-micro/search/.meteor/local/build/programs/server/boot.js:117:5[39m
+[34mW20150909-22:15:31.206(4)? (STDERR) [39m[35m    - - - - -[39m
+[34mW20150909-22:15:31.206(4)? (STDERR) [39m[35m    at [object Object].<anonymous> (/Users/tapmate/.meteor/packages/meteorhacks_cluster/.1.6.9.bv1qcd++os+web.browser+web.cordova/npm/node_modules/mongodb/lib/mongodb/connection/server.js:555:74)[39m
+[34mW20150909-22:15:31.206(4)? (STDERR) [39m[35m    at [object Object].emit (events.js:106:17)[39m
+[34mW20150909-22:15:31.206(4)? (STDERR) [39m[35m    at [object Object].<anonymous> (/Users/tapmate/.meteor/packages/meteorhacks_cluster/.1.6.9.bv1qcd++os+web.browser+web.cordova/npm/node_modules/mongodb/lib/mongodb/connection/connection_pool.js:156:15)[39m
+[34mW20150909-22:15:31.207(4)? (STDERR) [39m[35m    at [object Object].emit (events.js:98:17)[39m
+[34mW20150909-22:15:31.207(4)? (STDERR) [39m[35m    at Socket.<anonymous> (/Users/tapmate/.meteor/packages/meteorhacks_cluster/.1.6.9.bv1qcd++os+web.browser+web.cordova/npm/node_modules/mongodb/lib/mongodb/connection/connection.js:534:10)[39m
+[34mW20150909-22:15:31.207(4)? (STDERR) [39m[35m    at Socket.emit (events.js:95:17)[39m
+[34mW20150909-22:15:31.207(4)? (STDERR) [39m[35m    at net.js:441:14[39m
+[34mW20150909-22:15:31.207(4)? (STDERR) [39m[35m    at process._tickCallback (node.js:442:13)[39m
+=> Exited with code: 8
+[34mI20150909-22:15:33.819(4)? [39mCluster: connecting to 'mongodb' discovery backend
+[34mI20150909-22:15:33.819(4)? [39mCluster: with options:  undefined
+[34mW20150909-22:15:33.829(4)? (STDERR) [39m[35m[39m
+[34mW20150909-22:15:33.829(4)? (STDERR) [39m[35m/Users/tapmate/.meteor/packages/meteor-tool/.1.1.3.1wysac9++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/server-lib/node_modules/fibers/future.js:278[39m
+[34mW20150909-22:15:33.829(4)? (STDERR) [39m[35m						throw(ex);[39m
+[34mW20150909-22:15:33.829(4)? (STDERR) [39m[35m						      ^[39m
+[34mW20150909-22:15:33.851(4)? (STDERR) [39m[35mError: failed to connect to [localhost:27017][39m
+[34mW20150909-22:15:33.851(4)? (STDERR) [39m[35m    at Object.Future.wait (/Users/tapmate/.meteor/packages/meteor-tool/.1.1.3.1wysac9++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/server-lib/node_modules/fibers/future.js:398:15)[39m
+[34mW20150909-22:15:33.851(4)? (STDERR) [39m[35m    at packages/meteor/helpers.js:119:1[39m
+[34mW20150909-22:15:33.851(4)? (STDERR) [39m[35m    at Object.connect (packages/meteorhacks:cluster/lib/server/discovery_backends/mongo/discovery.js:18:1)[39m
+[34mW20150909-22:15:33.851(4)? (STDERR) [39m[35m    at Object.Cluster.connect (packages/meteorhacks:cluster/lib/server/api.js:17:1)[39m
+[34mW20150909-22:15:33.851(4)? (STDERR) [39m[35m    at app/server/app.js:1:44[39m
+[34mW20150909-22:15:33.851(4)? (STDERR) [39m[35m    at app/server/app.js:31:3[39m
+[34mW20150909-22:15:33.851(4)? (STDERR) [39m[35m    at /Users/tapmate/github/bullet-micro/search/.meteor/local/build/programs/server/boot.js:222:10[39m
+[34mW20150909-22:15:33.852(4)? (STDERR) [39m[35m    at Array.forEach (native)[39m
+[34mW20150909-22:15:33.852(4)? (STDERR) [39m[35m    at Function._.each._.forEach (/Users/tapmate/.meteor/packages/meteor-tool/.1.1.3.1wysac9++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/server-lib/node_modules/underscore/underscore.js:79:11)[39m
+[34mW20150909-22:15:33.852(4)? (STDERR) [39m[35m    at /Users/tapmate/github/bullet-micro/search/.meteor/local/build/programs/server/boot.js:117:5[39m
+[34mW20150909-22:15:33.852(4)? (STDERR) [39m[35m    - - - - -[39m
+[34mW20150909-22:15:33.852(4)? (STDERR) [39m[35m    at [object Object].<anonymous> (/Users/tapmate/.meteor/packages/meteorhacks_cluster/.1.6.9.bv1qcd++os+web.browser+web.cordova/npm/node_modules/mongodb/lib/mongodb/connection/server.js:555:74)[39m
+[34mW20150909-22:15:33.852(4)? (STDERR) [39m[35m    at [object Object].emit (events.js:106:17)[39m
+[34mW20150909-22:15:33.853(4)? (STDERR) [39m[35m    at [object Object].<anonymous> (/Users/tapmate/.meteor/packages/meteorhacks_cluster/.1.6.9.bv1qcd++os+web.browser+web.cordova/npm/node_modules/mongodb/lib/mongodb/connection/connection_pool.js:156:15)[39m
+[34mW20150909-22:15:33.853(4)? (STDERR) [39m[35m    at [object Object].emit (events.js:98:17)[39m
+[34mW20150909-22:15:33.853(4)? (STDERR) [39m[35m    at Socket.<anonymous> (/Users/tapmate/.meteor/packages/meteorhacks_cluster/.1.6.9.bv1qcd++os+web.browser+web.cordova/npm/node_modules/mongodb/lib/mongodb/connection/connection.js:534:10)[39m
+[34mW20150909-22:15:33.853(4)? (STDERR) [39m[35m    at Socket.emit (events.js:95:17)[39m
+[34mW20150909-22:15:33.853(4)? (STDERR) [39m[35m    at net.js:441:14[39m
+[34mW20150909-22:15:33.853(4)? (STDERR) [39m[35m    at process._tickCallback (node.js:442:13)[39m
+=> Exited with code: 8
+=> Your application is crashing. Waiting for file change.

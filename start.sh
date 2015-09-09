@@ -21,14 +21,14 @@ ${PORT:="6001"}
 
 cd main
 meteor add meteorhacks:cluster &
-meteor --port $PORT > ../main.log &
+meteor --port $PORT --settings ../dev.json  > ../main.log &
 cd ..
 cd search
 meteor add meteorhacks:cluster &
-meteor --port 7001 > ../search.log &
+meteor --port 7001 --settings ../dev.json  > ../search.log  &
 cd ..
 cd logging
 meteor add meteorhacks:cluster &
-meteor --port 8001 > ../logging.log &
+meteor --port 8001 --settings ../dev.json > ../logging.log &
 cd ..
 tail -f ./main.log

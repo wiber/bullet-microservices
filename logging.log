@@ -6,8 +6,7 @@
 => Started your app.
 
 => App running at: http://localhost:8001/
-[34mI20150909-22:42:00.505(4)? [39m[main-app] searching for: s
-[34mI20150909-22:42:00.725(4)? [39m[main-app] searching for: sea
-[34mI20150909-22:42:00.926(4)? [39m[main-app] searching for: sear
-[34mI20150909-22:42:01.172(4)? [39m[main-app] searching for: searc
-[34mI20150909-22:42:01.444(4)? [39m[main-app] searching for: searcg
+[34mI20150909-23:26:43.485(4)? [39m[main-app] searching for: a
+[34mI20150909-23:26:43.612(4)? [39m[main-app] searching for: aa
+[34mI20150909-23:26:43.690(4)? [39m[main-app] searching for: aas
+[34mI20150909-23:26:46.706(4)? [39m[main-app] searching for: aas

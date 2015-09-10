@@ -6,3 +6,105 @@
 => Started your app.
 
 => App running at: http://localhost:6001/
+[34mI20150910-10:31:07.284(4)? [39mgoing local because Meteor.settings.MONGO_CLUSTER undefined
+[34mI20150910-10:31:07.285(4)? [39mCluster: connecting to 'mongodb' discovery backend
+[34mI20150910-10:31:07.285(4)? [39mCluster: with options:  undefined
+[34mI20150910-10:31:07.285(4)? [39mCluster: using ROOT_URL as the cluster endpoint
+[34mI20150910-10:31:07.286(4)? [39mCluster: registering this node as service 'web'
+[34mI20150910-10:31:07.286(4)? [39mCluster:    endpoint url = http://localhost:6001/
+[34mI20150910-10:31:07.286(4)? [39mCluster:    balancer url = undefined
+=> Server modified -- restarting...                                   [34mI20150910-10:32:01.806(4)? [39mgoing local because Meteor.settings.MONGO_CLUSTER undefined
+[34mI20150910-10:32:01.807(4)? [39mCluster: connecting to 'mongodb' discovery backend
+[34mI20150910-10:32:01.807(4)? [39mCluster: with options:  undefined
+[34mI20150910-10:32:01.826(4)? [39mCluster: using ROOT_URL as the cluster endpoint
+[34mI20150910-10:32:01.826(4)? [39mCluster: registering this node as service 'web'
+[34mI20150910-10:32:01.826(4)? [39mCluster:    endpoint url = http://localhost:6001/
+[34mI20150910-10:32:01.826(4)? [39mCluster:    balancer url = undefined
+[34mI20150910-10:32:01.835(4)? [39mstream error Network error: ws://search/websocket: getaddrinfo ENOTFOUND
+[34mI20150910-10:32:01.836(4)? [39mstream error Network error: ws://logging/websocket: getaddrinfo ENOTFOUND
+[34mI20150910-10:32:01.848(4)? [39mstream error Network error: ws://search/websocket: getaddrinfo ENOTFOUND
+[34mI20150910-10:32:01.855(4)? [39mstream error Network error: ws://logging/websocket: getaddrinfo ENOTFOUND
+=> Meteor server restarted
+[34mI20150910-10:32:01.868(4)? [39mstream error Network error: ws://search/websocket: getaddrinfo ENOTFOUND
+[34mI20150910-10:32:01.870(4)? [39mstream error Network error: ws://logging/websocket: getaddrinfo ENOTFOUND
+[34mI20150910-10:32:05.567(4)? [39mstream error Network error: ws://search/websocket: getaddrinfo ENOTFOUND
+[34mI20150910-10:32:07.584(4)? [39mstream error Network error: ws://logging/websocket: getaddrinfo ENOTFOUND
+[34mI20150910-10:32:16.221(4)? [39mstream error Network error: ws://logging/websocket: getaddrinfo ENOTFOUND
+[34mI20150910-10:32:18.392(4)? [39mstream error Network error: ws://search/websocket: getaddrinfo ENOTFOUND
+[34mI20150910-10:32:36.357(4)? [39mstream error Network error: ws://search/websocket: getaddrinfo ENOTFOUND
+[34mI20150910-10:32:37.517(4)? [39mstream error Network error: ws://logging/websocket: getaddrinfo ENOTFOUND
+[34mI20150910-10:33:17.972(4)? [39mstream error Network error: ws://search/websocket: getaddrinfo ENOTFOUND
+[34mI20150910-10:33:31.783(4)? [39mstream error Network error: ws://logging/websocket: getaddrinfo ENOTFOUND
+=> Server modified -- restarting...                                   [34mI20150910-10:33:37.588(4)? [39mgoing local because Meteor.settings.MONGO_CLUSTER undefined
+[34mI20150910-10:33:37.588(4)? [39mCluster: connecting to 'mongodb' discovery backend
+[34mI20150910-10:33:37.588(4)? [39mCluster: with options:  undefined
+[34mI20150910-10:33:37.608(4)? [39mCluster: using ROOT_URL as the cluster endpoint
+[34mI20150910-10:33:37.609(4)? [39mCluster: registering this node as service 'web'
+[34mI20150910-10:33:37.609(4)? [39mCluster:    endpoint url = http://localhost:6001/
+[34mI20150910-10:33:37.609(4)? [39mCluster:    balancer url = undefined
+=> Meteor server restarted
+[34mI20150910-10:34:10.476(4)? [39mException in defer callback: Error: Method not found [404]
+[34mI20150910-10:34:10.477(4)? [39m    at Object.Future.wait (/Users/tapmate/.meteor/packages/meteor-tool/.1.1.3.1wysac9++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/server-lib/node_modules/fibers/future.js:398:15)
+[34mI20150910-10:34:10.477(4)? [39m    at [object Object]._.extend.apply (packages/ddp/livedata_connection.js:901:1)
+[34mI20150910-10:34:10.477(4)? [39m    at [object Object]._.extend.call (packages/ddp/livedata_connection.js:668:1)
+[34mI20150910-10:34:10.477(4)? [39m    at app/server/app.js:29:13
+[34mI20150910-10:34:10.477(4)? [39m    at [object Object]._.extend.withValue (packages/meteor/dynamics_nodejs.js:56:1)
+[34mI20150910-10:34:10.477(4)? [39m    at packages/meteor/timers.js:6:1
+[34mI20150910-10:34:10.477(4)? [39m    at runWithEnvironment (packages/meteor/dynamics_nodejs.js:108:1)
+[34mI20150910-10:34:10.477(4)? [39m    - - - - -
+[34mI20150910-10:34:10.477(4)? [39m    at [object Object]._.extend._livedata_result (packages/ddp/livedata_connection.js:1494:1)
+[34mI20150910-10:34:10.477(4)? [39m    at onMessage (packages/ddp/livedata_connection.js:255:1)
+[34mI20150910-10:34:10.478(4)? [39m    at runWithEnvironment (packages/meteor/dynamics_nodejs.js:108:1)
+[34mI20150910-10:34:10.478(4)? [39m    at packages/meteor/dynamics_nodejs.js:121:1
+[34mI20150910-10:34:10.478(4)? [39m    at packages/ddp/stream_client_nodejs.js:193:1
+[34mI20150910-10:34:10.478(4)? [39m    at Array.forEach (native)
+[34mI20150910-10:34:10.478(4)? [39m    at Function._.each._.forEach (packages/underscore/underscore.js:105:1)
+[34mI20150910-10:34:10.478(4)? [39m    at packages/ddp/stream_client_nodejs.js:192:1
+[34mI20150910-10:34:10.478(4)? [39m    at packages/ddp/stream_client_nodejs.js:168:1
+[34mI20150910-10:34:10.478(4)? [39m    at runWithEnvironment (packages/meteor/dynamics_nodejs.js:108:1)
+[34mI20150910-10:34:11.635(4)? [39mException in defer callback: Error: Method not found [404]
+[34mI20150910-10:34:11.635(4)? [39m    at Object.Future.wait (/Users/tapmate/.meteor/packages/meteor-tool/.1.1.3.1wysac9++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/server-lib/node_modules/fibers/future.js:398:15)
+[34mI20150910-10:34:11.635(4)? [39m    at [object Object]._.extend.apply (packages/ddp/livedata_connection.js:901:1)
+[34mI20150910-10:34:11.635(4)? [39m    at [object Object]._.extend.call (packages/ddp/livedata_connection.js:668:1)
+[34mI20150910-10:34:11.635(4)? [39m    at app/server/app.js:29:13
+[34mI20150910-10:34:11.635(4)? [39m    at [object Object]._.extend.withValue (packages/meteor/dynamics_nodejs.js:56:1)
+[34mI20150910-10:34:11.636(4)? [39m    at packages/meteor/timers.js:6:1
+[34mI20150910-10:34:11.636(4)? [39m    at runWithEnvironment (packages/meteor/dynamics_nodejs.js:108:1)
+[34mI20150910-10:34:11.636(4)? [39m    - - - - -
+[34mI20150910-10:34:11.636(4)? [39m    at [object Object]._.extend._livedata_result (packages/ddp/livedata_connection.js:1494:1)
+[34mI20150910-10:34:11.636(4)? [39m    at onMessage (packages/ddp/livedata_connection.js:255:1)
+[34mI20150910-10:34:11.636(4)? [39m    at runWithEnvironment (packages/meteor/dynamics_nodejs.js:108:1)
+[34mI20150910-10:34:11.636(4)? [39m    at packages/meteor/dynamics_nodejs.js:121:1
+[34mI20150910-10:34:11.636(4)? [39m    at packages/ddp/stream_client_nodejs.js:193:1
+[34mI20150910-10:34:11.636(4)? [39m    at Array.forEach (native)
+[34mI20150910-10:34:11.637(4)? [39m    at Function._.each._.forEach (packages/underscore/underscore.js:105:1)
+[34mI20150910-10:34:11.637(4)? [39m    at packages/ddp/stream_client_nodejs.js:192:1
+[34mI20150910-10:34:11.637(4)? [39m    at packages/ddp/stream_client_nodejs.js:168:1
+[34mI20150910-10:34:11.637(4)? [39m    at runWithEnvironment (packages/meteor/dynamics_nodejs.js:108:1)
+[34mI20150910-10:34:13.755(4)? [39mException in defer callback: Error: Method not found [404]
+[34mI20150910-10:34:13.755(4)? [39m    at Object.Future.wait (/Users/tapmate/.meteor/packages/meteor-tool/.1.1.3.1wysac9++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/server-lib/node_modules/fibers/future.js:398:15)
+[34mI20150910-10:34:13.755(4)? [39m    at [object Object]._.extend.apply (packages/ddp/livedata_connection.js:901:1)
+[34mI20150910-10:34:13.756(4)? [39m    at [object Object]._.extend.call (packages/ddp/livedata_connection.js:668:1)
+[34mI20150910-10:34:13.756(4)? [39m    at app/server/app.js:29:13
+[34mI20150910-10:34:13.756(4)? [39m    at [object Object]._.extend.withValue (packages/meteor/dynamics_nodejs.js:56:1)
+[34mI20150910-10:34:13.756(4)? [39m    at packages/meteor/timers.js:6:1
+[34mI20150910-10:34:13.756(4)? [39m    at runWithEnvironment (packages/meteor/dynamics_nodejs.js:108:1)
+[34mI20150910-10:34:13.756(4)? [39m    - - - - -
+[34mI20150910-10:34:13.756(4)? [39m    at [object Object]._.extend._livedata_result (packages/ddp/livedata_connection.js:1494:1)
+[34mI20150910-10:34:13.756(4)? [39m    at onMessage (packages/ddp/livedata_connection.js:255:1)
+[34mI20150910-10:34:13.756(4)? [39m    at runWithEnvironment (packages/meteor/dynamics_nodejs.js:108:1)
+[34mI20150910-10:34:13.756(4)? [39m    at packages/meteor/dynamics_nodejs.js:121:1
+[34mI20150910-10:34:13.757(4)? [39m    at packages/ddp/stream_client_nodejs.js:193:1
+[34mI20150910-10:34:13.757(4)? [39m    at Array.forEach (native)
+[34mI20150910-10:34:13.757(4)? [39m    at Function._.each._.forEach (packages/underscore/underscore.js:105:1)
+[34mI20150910-10:34:13.757(4)? [39m    at packages/ddp/stream_client_nodejs.js:192:1
+[34mI20150910-10:34:13.757(4)? [39m    at packages/ddp/stream_client_nodejs.js:168:1
+[34mI20150910-10:34:13.757(4)? [39m    at runWithEnvironment (packages/meteor/dynamics_nodejs.js:108:1)
+=> Server modified -- restarting...                                   [34mI20150910-10:34:42.575(4)? [39mgoing local because Meteor.settings.MONGO_CLUSTER undefined
+[34mI20150910-10:34:42.575(4)? [39mCluster: connecting to 'mongodb' discovery backend
+[34mI20150910-10:34:42.575(4)? [39mCluster: with options:  undefined
+[34mI20150910-10:34:42.596(4)? [39mCluster: using ROOT_URL as the cluster endpoint
+[34mI20150910-10:34:42.596(4)? [39mCluster: registering this node as service 'web'
+[34mI20150910-10:34:42.596(4)? [39mCluster:    endpoint url = http://localhost:6001/
+[34mI20150910-10:34:42.596(4)? [39mCluster:    balancer url = undefined
+=> Meteor server restarted

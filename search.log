@@ -3,12 +3,13 @@
 => Started proxy.
 => Meteor 1.1.0.3 is available. Update this project with 'meteor update'.
 => Started MongoDB.
-[34mI20150910-09:21:19.666(4)? [39mCluster: connecting to 'mongodb' discovery backend
-[34mI20150910-09:21:19.668(4)? [39mCluster: with options:  undefined
-[34mI20150910-09:21:19.668(4)? [39mCluster: using ROOT_URL as the cluster endpoint
-[34mI20150910-09:21:19.669(4)? [39mCluster: registering this node as service 'search'
-[34mI20150910-09:21:19.669(4)? [39mCluster:    endpoint url = http://localhost:7001/
-[34mI20150910-09:21:19.669(4)? [39mCluster:    balancer url = undefined
 => Started your app.
 
 => App running at: http://localhost:7001/
+[34mI20150910-10:31:05.323(4)? [39mgoing local because Meteor.settings.MONGO_CLUSTER undefined
+[34mI20150910-10:31:05.324(4)? [39mCluster: connecting to 'mongodb' discovery backend
+[34mI20150910-10:31:05.324(4)? [39mCluster: with options:  undefined
+[34mI20150910-10:31:05.324(4)? [39mCluster: using ROOT_URL as the cluster endpoint
+[34mI20150910-10:31:05.324(4)? [39mCluster: registering this node as service 'search'
+[34mI20150910-10:31:05.325(4)? [39mCluster:    endpoint url = http://localhost:7001/
+[34mI20150910-10:31:05.325(4)? [39mCluster:    balancer url = undefined

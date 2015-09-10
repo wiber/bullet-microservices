@@ -6,5 +6,25 @@
 => Started your app.
 
 => App running at: http://localhost:8001/
-[34mI20150910-10:01:46.958(4)? [39m[main-app] searching for: 
-[34mI20150910-10:04:48.329(4)? [39m[main-app] searching for: as
+[34mI20150910-10:31:00.278(4)? [39mgoing local because Meteor.settings.MONGO_CLUSTER undefined
+[34mI20150910-10:31:00.279(4)? [39mCluster: connecting to 'mongodb' discovery backend
+[34mI20150910-10:31:00.280(4)? [39mCluster: with options:  undefined
+[34mI20150910-10:31:00.280(4)? [39mCluster: using ROOT_URL as the cluster endpoint
+[34mI20150910-10:31:00.280(4)? [39mCluster: registering this node as service 'logging'
+[34mI20150910-10:31:00.280(4)? [39mCluster:    endpoint url = http://localhost:8001/
+[34mI20150910-10:31:00.280(4)? [39mCluster:    balancer url = undefined
+[34mI20150910-10:31:28.149(4)? [39m[main-app] searching for: a
+[34mI20150910-10:31:28.346(4)? [39m[main-app] searching for: 
+[34mI20150910-10:31:28.550(4)? [39m[main-app] searching for: as
+[34mI20150910-10:34:50.794(4)? [39m[main-app] searching for: as
+[34mI20150910-10:34:52.054(4)? [39m[main-app] searching for: a
+[34mI20150910-10:34:52.258(4)? [39m[main-app] searching for: 
+[34mI20150910-10:34:57.031(4)? [39m[main-app] searching for: as
+[34mI20150910-10:34:57.916(4)? [39m[main-app] searching for: a
+[34mI20150910-10:34:58.120(4)? [39m[main-app] searching for: 
+[34mI20150910-10:34:58.528(4)? [39m[main-app] searching for: ar
+[34mI20150910-10:34:58.748(4)? [39m[main-app] searching for: arc
+[34mI20150910-10:34:58.969(4)? [39m[main-app] searching for: archi
+[34mI20150910-10:34:59.152(4)? [39m[main-app] searching for: archite
+[34mI20150910-10:35:01.388(4)? [39m[main-app] searching for: architec
+[34mI20150910-10:35:01.676(4)? [39m[main-app] searching for: architect

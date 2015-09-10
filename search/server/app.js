@@ -35,14 +35,15 @@ function buildRegExp( searchText ) {
   return new RegExp( "(" + parts.join( '|' ) + ")", "ig" );
 }
 
-function setupMongodb() {
+function setupMongodb(cluster) {
 
-  var mongoURL = process.env.mongoURL;
-  if ( typeof ( foo ) !== 'undefined' ) {
+  var mongoURL = Meteor.settings.MONGO_CLUSTER2;//todos
+  if ( typeof ( mongoURL ) !== 'undefined' ) {
     Cluster.connect( mongoURL );
   } else {
+    console.log('going local because Meteor.settings.MONGO_CLUSTER',process.env.MONGO_CLUSTER)
     Cluster.connect( "mongodb://localhost:27017/discovery" );
   }
-  Cluster.register( "search" );
+  Cluster.register( cluster );
 }
-setupMongodb()
+setupMongodb('search');

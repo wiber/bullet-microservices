@@ -4,9 +4,23 @@ Meteor.publish('topPackages', function() {
   return Packages.find({}, options);
 });
 // connecting to the logging service
-var logConn = DDP.connect("http://localhost:8001");
+
+function setupMongodb(cluster) {
+
+  var mongoURL = Meteor.settings.MONGO_CLUSTER2;//todos
+  if ( typeof ( mongoURL ) !== 'undefined' ) {
+    Cluster.connect( mongoURL );
+  } else {
+    console.log('going local because Meteor.settings.MONGO_CLUSTER',process.env.MONGO_CLUSTER)
+    Cluster.connect( "mongodb://localhost:27017/discovery" );
+  }
+  Cluster.register( cluster );
+}
+setupMongodb('web');
+
+var logConn = Cluster.discoverConnection("logging"); 
 // connecting to the search service
-var searchConn = DDP.connect("http://localhost:7001");
+var searchConn = Cluster.discoverConnection("search");
 
 SearchSource.defineSource('packages', function(searchText, options) {
   // we don't need to wait for completing the log method call

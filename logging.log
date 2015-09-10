@@ -6,7 +6,5 @@
 => Started your app.
 
 => App running at: http://localhost:8001/
-[34mI20150909-23:26:43.485(4)? [39m[main-app] searching for: a
-[34mI20150909-23:26:43.612(4)? [39m[main-app] searching for: aa
-[34mI20150909-23:26:43.690(4)? [39m[main-app] searching for: aas
-[34mI20150909-23:26:46.706(4)? [39m[main-app] searching for: aas
+[34mI20150910-10:01:46.958(4)? [39m[main-app] searching for: 
+[34mI20150910-10:04:48.329(4)? [39m[main-app] searching for: as

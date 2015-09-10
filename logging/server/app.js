@@ -2,16 +2,16 @@
 var Logs = new Meteor.Collection('logs');
 
 function setupMongodb(cluster) {
-
-  var mongoURL = Meteor.settings.MONGO_CLUSTER2;//todos
-  if ( typeof ( mongoURL ) !== 'undefined' ) {
-    Cluster.connect( mongoURL );
-  } else {
+  try {
+    Cluster.connect( Meteor.settings.MONGO_CLUSTER );
+  } catch (e) {
+    console.log(e)
     console.log('going local because Meteor.settings.MONGO_CLUSTER',process.env.MONGO_CLUSTER)
     Cluster.connect( "mongodb://localhost:27017/discovery" );
+  } finally {
+    Cluster.register( cluster );
   }
-  Cluster.register( cluster );
-}
+};
 setupMongodb('logging');
 
 Meteor.methods({

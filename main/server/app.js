@@ -6,19 +6,20 @@ Meteor.publish('topPackages', function() {
 // connecting to the logging service
 
 function setupMongodb(cluster) {
-
-  var mongoURL = Meteor.settings.MONGO_CLUSTER2;//todos
-  if ( typeof ( mongoURL ) !== 'undefined' ) {
-    Cluster.connect( mongoURL );
-  } else {
+  try {
+    Cluster.connect( Meteor.settings.MONGO_CLUSTER );
+  } catch (e) {
+    console.log(e)
     console.log('going local because Meteor.settings.MONGO_CLUSTER',process.env.MONGO_CLUSTER)
     Cluster.connect( "mongodb://localhost:27017/discovery" );
+  } finally {
+    Cluster.register( cluster );
   }
-  Cluster.register( cluster );
-}
+};
+
 setupMongodb('web');
 
-var logConn = Cluster.discoverConnection("logging"); 
+var logConn = Cluster.discoverConnection("logging");
 // connecting to the search service
 var searchConn = Cluster.discoverConnection("search");
 

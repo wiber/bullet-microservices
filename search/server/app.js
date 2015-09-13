@@ -36,7 +36,7 @@ function buildRegExp( searchText ) {
 }
 function setupMongodb(cluster) {
   try {
-    Cluster.connect( Meteor.settings.MONGO_CLUSTER );
+    console.log(Cluster.connect( Meteor.settings.MONGO_CLUSTER ));
   } catch (e) {
     console.log(e)
     console.log('going local because Meteor.settings.MONGO_CLUSTER',process.env.MONGO_CLUSTER)

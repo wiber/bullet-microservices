@@ -1,29 +1,15 @@
 [[[[[ ~/github/bullet-micro/search ]]]]]
 
 => Started proxy.
-=> Meteor 1.1.0.3 is available. Update this project with 'meteor update'.
+=> Meteor 1.2.1 is available. Update this project with 'meteor update'.
 => Started MongoDB.
-[34mI20150913-12:59:46.463(4)? [39mCluster: connecting to 'mongodb' discovery backend
-[34mI20150913-12:59:46.465(4)? [39mCluster: with options:  undefined
-[34mI20150913-12:59:48.156(4)? [39mCluster: using ROOT_URL as the cluster endpoint
-[34mI20150913-12:59:48.156(4)? [39mCluster: registering this node as service 'search'
-[34mI20150913-12:59:48.156(4)? [39mCluster:    endpoint url = http://localhost:7001/
-[34mI20150913-12:59:48.156(4)? [39mCluster:    balancer url = undefined
+[34mI20151101-10:38:04.117(4)? [39mCluster: connecting to 'mongodb' discovery backend
+[34mI20151101-10:38:04.119(4)? [39mCluster: with options:  undefined
+[34mI20151101-10:38:07.544(4)? [39mundefined
+[34mI20151101-10:38:07.545(4)? [39mCluster: using ROOT_URL as the cluster endpoint
+[34mI20151101-10:38:07.545(4)? [39mCluster: registering this node as service 'search'
+[34mI20151101-10:38:07.545(4)? [39mCluster:    endpoint url = http://localhost:7001/
+[34mI20151101-10:38:07.545(4)? [39mCluster:    balancer url = undefined
 => Started your app.
 
 => App running at: http://localhost:7001/
-=> Server modified -- restarting...                                   => Errors prevented startup:
-   
-   While building the application:
-   server/app.js:39:65: Unexpected token ;
-   
-=> Your application has errors. Waiting for file change.
-=> Modified -- restarting.
-[34mI20150913-13:01:21.798(4)? [39mCluster: connecting to 'mongodb' discovery backend
-[34mI20150913-13:01:21.798(4)? [39mCluster: with options:  undefined
-[34mI20150913-13:01:23.634(4)? [39mundefined
-[34mI20150913-13:01:23.635(4)? [39mCluster: using ROOT_URL as the cluster endpoint
-[34mI20150913-13:01:23.635(4)? [39mCluster: registering this node as service 'search'
-[34mI20150913-13:01:23.635(4)? [39mCluster:    endpoint url = http://localhost:7001/
-[34mI20150913-13:01:23.635(4)? [39mCluster:    balancer url = undefined
-=> Meteor server restarted
